@@ -28,13 +28,7 @@ public class Controller : MonoBehaviour
 
     {
 
-        void OnTriggerEnter(Collider player)
-        {
-            Destroy(gameObject);
-            score += 1;
-            scoreText.text = score.ToString();
-            s.Spawn();
-        }
+
           
         // Makes the player able to move with arrow keys
         if (Input.GetKey(KeyCode.UpArrow))

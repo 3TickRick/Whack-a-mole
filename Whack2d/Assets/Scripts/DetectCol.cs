@@ -20,12 +20,11 @@ public class DetectCol : MonoBehaviour
 
     }
 
-    public void OnTriggerEnter2D(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         
         Destroy(gameObject);
-        score += 1;
-        scoreText.text = score.ToString();
+        Debug.Log("test");
         s.Spawn();
 
     }

@@ -767,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5680296362521209708, guid: d5eecfb2ea60cfc43b1449fc3ed1c99a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8325875755446524213, guid: d5eecfb2ea60cfc43b1449fc3ed1c99a, type: 3}
       propertyPath: m_RootOrder
@@ -838,20 +838,3 @@ MonoBehaviour:
   horizontalInput: 0
   verticalInput: 0
   speed: 2
---- !u!114 &2047611397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047611391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c09ffdeddc8a3854a80e5714858c46d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 629277279}
-  score: 0
-  horizontalInput: 0
-  verticalInput: 0
-  speed: 4
